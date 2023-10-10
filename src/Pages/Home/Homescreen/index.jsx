@@ -2,6 +2,7 @@ import HeroSection from "../HeroSection";
 import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
+import ContactMe from "../ContactMe";
 // import Testimonial from "../Testimonials";
 
 export default function Home () {
@@ -11,6 +12,7 @@ export default function Home () {
             <MySkills />
             <AboutMe />
             <MyPortfolio />
+            <ContactMe />
             {/* <Testimonial /> */}
         </>
     )
