@@ -88,7 +88,7 @@ export default function Navbar() {
               About Me
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               onclick={closeMenu}
               activeClass="navbar--active-content"
@@ -101,7 +101,7 @@ export default function Navbar() {
             >
               Testimonials
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <Link

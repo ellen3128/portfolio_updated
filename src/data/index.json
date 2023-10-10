@@ -48,7 +48,7 @@
       "link": "View In Github"
     }
   ],
-  "testimonial": 
+  "testimonial": [
     {
       "id": "1",
       "count": "5",
@@ -56,5 +56,14 @@
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
       "author_name": "Alex",
       "author_designation": "SLID"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
+      "author_name": "Alex",
+      "author_designation": "SLID"
     }
+  ]
 }
