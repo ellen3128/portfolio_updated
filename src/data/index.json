@@ -24,5 +24,28 @@
       "title": "Webflow Development",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
     }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/delish.png",
+      "title": "Delish",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/theme-generator1.png",
+      "title": "Theme Generator",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/moda.png",
+      "title": "Moda",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
+      "link": "View In Github"
+    }
   ]
 }
