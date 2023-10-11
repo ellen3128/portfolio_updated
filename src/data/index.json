@@ -8,20 +8,14 @@
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI Design",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI/UX Design",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
-    },
-    {
-      "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
+      "title": "Project Management",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
     }
   ],
