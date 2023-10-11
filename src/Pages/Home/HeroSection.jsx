@@ -17,14 +17,14 @@ export default function HeroSection() {
             <br /> Assumenda doloribus mollitia tempora ipsam adipisci!
           </p>
           <div className="contact--link--icons">
-            <a href="https://www.linkedin.com/in/hyunellenpark1/">
+            <a href="https://www.linkedin.com/in/hyunellenpark1/" target="_blank" rel="noopener noreferrer">
               <img
                 style={{ width: "60px", height: "60px", margin: "10px" }}
                 src={linkedinIcon}
                 alt="LinkedIn Icon"
               />
             </a>
-            <a href="https://github.com/ellen3128">
+            <a href="https://github.com/ellen3128" target="_blank" rel="noopener noreferrer">
               <img
                 style={{ width: "55px", height: "55px", margin: "10px" }}
                 src={githubIcon}
@@ -32,8 +32,8 @@ export default function HeroSection() {
               />
             </a>
             <a
-              href="https://mail.google.com/mail/?view=cm&source=mailto&to=hyunpark.ellen@gmail.com"
-              target="_blank"
+              href="https://mail.google.com/mail/?view=cm&source=mailto&to=ellenpark3128@gmail.com"
+              target="_blank" rel="noopener noreferrer"
             >
               <img
                 style={{ width: "55px", height: "55px", margin: "10px" }}

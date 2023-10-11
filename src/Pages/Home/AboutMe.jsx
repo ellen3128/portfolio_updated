@@ -9,8 +9,8 @@ export default function AboutMe () {
                 <div className="hero--section--content">
                     <p className="section--title">About</p>
                     <h1 className="skills=section--heading">About Me</h1>
-                    <p className="hero--section-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sequi id consectetur eligendi dignissimos, harum aut maiores cumque, animi laborum illo officiis placeat! Fuga aspernatur optio quis, aut rerum ad!</p>
-                    <p className="hero--section-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sequi id consectetur eligendi dignissimos!</p>
+                    <p className="hero--section-description"> Highly creative and results-oriented front-end developer with a background in corporate strategy consulting and government relations. Adept at project management and problem-solving with a focus on developing intuitive user interfaces that align with strategic objectives!</p>
+                    <p className="hero--section-description"> I love developing intuitive websites and applications that showcase impactful frontend designs! </p>
                 </div>
                 </div>
         </section>

@@ -4,19 +4,19 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
+      "description": "Deliver intuitive user interfaces using languages and frameworks including JavaScript, React and Vue, ensuring alignment with strategic goals"
     },
     {
       "id": "2",
       "src": "./img/feather-pen-2.png",
       "title": "UI Design",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
+      "description": "Develop modern, user-centric UI designs and features to meet end-user expectations and requirements"
     },
     {
       "id": "3",
       "src": "./img/feather-pen-1.png",
       "title": "Project Management",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique"
+      "description": "Leverage methodologies like Agile to drive project success and demonstrate multifaceted project management skills"
     }
   ],
   "portfolio": [
@@ -24,22 +24,22 @@
       "id": "1",
       "src": "./img/delish.png",
       "title": "Delish",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
-      "link": "View In Github"
+      "description": "Front-end web app for recipes and meal planning services. React, HTML, CSS, Splide, Auth0, Spoonacular (3rd Party API).",
+      "link": "https://github.com/ellen3128/Delish-recipe-app"
     },
     {
       "id": "2",
       "src": "./img/theme-generator1.png",
       "title": "Theme Generator",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
-      "link": "View In Github"
+      "description": "Full-stack CRUD web app offering expansive AI-generated web styling properties. Uses JavaScript, CSS, Express, Node.js, MongoDB, Google OAuth, OpenAI.",
+      "link": "https://github.com/ellen3128/Theme-Generator"
     },
     {
       "id": "3",
       "src": "./img/moda.png",
       "title": "Moda",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius elm in eros elementum tristique",
-      "link": "View In Github"
+      "description": "Full-stack e-commerce application for fashion products with secure log-in and payment processes. Uses Vue, HTML, CSS, Vuetify, Express, Node.js, MongoDB, Auth0, Stripe.",
+      "link": "https://github.com/ellen3128/Moda"
     }
   ],
   "testimonial": [
