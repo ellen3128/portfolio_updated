@@ -335,6 +335,7 @@ h3 {
   gap: 50px;
   align-items: center;
   text-align: center;
+  /* overflow: hidden; */
 }
 
 .grid-item {
@@ -349,7 +350,7 @@ h3 {
   border: 1px rgb(207, 207, 207) solid;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -3px -3px 7px rgba(255, 255, 255, 0.7);
-  transform: rotateX(5deg) rotateY(-5deg);
+  /* transform: rotateX(5deg) rotateY(-5deg); */
 }
 
 .grid-item img {
