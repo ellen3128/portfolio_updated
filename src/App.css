@@ -524,6 +524,21 @@ h3 {
   height: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  .about--section {
+      /* grid-template-columns: 1fr; */
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 30px 50px 30px;     
+      gap: 50px;
+      background-color: rgb(244, 234, 234);
+  }
+
+    .about--section--img{
+      display: none;
+    }
+}
+
 /* portfolio */
 
 .portfolio--section {
@@ -654,14 +669,8 @@ h3 {
 
 
 
-/* aboutMe section */
 
-@media only screen and (max-width: 768px) {
-  .about--section {
-      grid-template-columns: 1fr;
-      padding: 50px 20px;
-  }
-}
+
 
 /* portfolio section  */
 
