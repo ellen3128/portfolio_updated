@@ -138,7 +138,7 @@ h3 {
 
 .section--title {
   color: var(--heading-color);
-  font-size: 21px;
+  font-size: 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -207,6 +207,7 @@ h3 {
     gap: 13px;
     flex-direction: row;
     margin-right: 5px;
+    margin-left: 5px;
     padding-left: 0px;
   }
   .btn {
@@ -269,6 +270,10 @@ h1 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+}
+
+p.hero--section-description {
+  font-size: 19px;
 }
 
 .hero--section--img {
@@ -411,12 +416,12 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, auto);
-  gap: 50px;
+  gap: 80px;
   align-items: center;
   text-align: center;
-  /* margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-  width: fit-content; */
+  width: fit-content;
   /* overflow: hidden; */
 }
 
@@ -612,7 +617,7 @@ h1 {
 
 .sub--title {
   color: var(--heading-color);
-  font-size: 21px;
+  font-size: 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -721,11 +726,17 @@ h1 {
 
 .sub--title2 {
   color: var(--heading-color);
-  font-size: 21px;
+  font-size: 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
+}
+
+.contact--me--text {
+  font-size: 64px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -738,7 +749,7 @@ h1 {
     font-size: 20px;
   }
 
-  h2 {
+  .contact--me--text {
     font-size: 40px;
   }
 
