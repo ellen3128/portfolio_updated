@@ -272,6 +272,50 @@ h3 {
   height: 80%;
 }
 
+
+@media only screen and (max-width: 768px) {
+  .hero--section {
+      grid-template-columns: 1fr;
+      padding: 50px 20px;
+  }
+  p.section--title {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  h1 {
+      font-size: 25px;
+      line-height: 35px;
+  }
+  .hero--section--content {
+    padding-top: 50px;
+  }
+  p.hero--section-description {
+    font-size: 12px;
+  }
+  .contact--link--icons {
+    width: 70%; 
+}
+
+.contact--link--icons img[src*="linkedinIcon"] {
+    width: 30px;
+    height: 30px;
+}
+
+.contact--link--icons img[src*="githubIcon"], .contact--link--icons img[src*="gmailIcon"] {
+    width: 25px;
+    height: 25px;
+}
+.btn {
+  padding: 8px;
+}
+
+.hero--section--img img {
+  margin: 0 auto; 
+  width: 70%;
+}
+}
+
 /* skills section */
 
 .skills--section {
@@ -551,23 +595,12 @@ h3 {
     line-height: 32px;
 }
 
-/* media query -- navbar */
 
 
 
-/* hero section */
 
-@media only screen and (max-width: 768px) {
-  .hero--section {
-      grid-template-columns: 1fr;
-      padding: 50px 20px;
-  }
 
-  .hero--section--title {
-      font-size: 40px;
-      line-height: 48px;
-  }
-}
+
 
 /* skills section */
 

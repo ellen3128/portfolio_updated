@@ -15,7 +15,9 @@ export default function HeroSection() {
           <p className="hero--section-description">
             ▪️ Highly creative and results-oriented front-end developer
             <br />
-            ▪️ Former corporate consultant and registered lobbyist
+            ▪️ Former corporate consultant and registered lobbyist 
+            <br />
+            ▪️ Knowledge and experience with backend services
             <br />
             ▪️ Passionate about web applications with impactful designs!
           </p>
