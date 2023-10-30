@@ -12,7 +12,7 @@ export default function ContactMe() {
           Please feel free to reach out or connect!
         </p>
       </div>
-      <div>
+      <div className="contact--img--container">
         <a href="https://www.linkedin.com/in/hyunellenpark1/" target="_blank" rel="noopener noreferrer">
           <img
             style={{ width: "60px", height: "60px", margin: "10px" }}
