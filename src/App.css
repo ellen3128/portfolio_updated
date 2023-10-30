@@ -284,8 +284,8 @@ h3 {
   }
 
   h1 {
-      font-size: 25px;
-      line-height: 35px;
+      font-size: 43px;
+      line-height: 45px;
   }
   .hero--section--content {
     padding-top: 50px;
@@ -394,6 +394,55 @@ h3 {
   font-weight: 400;
   line-height: 32px;;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .skills--section--heading {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+  .skills--section {
+      padding: 60px 20px;
+  }
+
+  .skills--section--card {
+    padding: 16px;
+    gap: 25px;
+    min-height: 0px;
+  }
+
+  .skills--section--img {
+    padding: 5px;
+    gap: 5px;
+  }
+
+  .skills--section--container {
+      margin-top: -80px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+  }
+
+  .skills--section--card--content {
+    gap: 3px;
+  }
+
+  .skills--section--title {
+    font-size: 18px;
+  }
+
+  .skills--section--description {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .skills--section--container {
+      grid-template-columns: 1fr;
+  }
+  
+}
+
 
 .grid-container {
   margin-top: 50px;
@@ -602,49 +651,8 @@ h3 {
 
 
 
-/* skills section */
 
-@media only screen and (max-width: 768px) {
-  .skills--section {
-      padding: 60px 20px;
-  }
 
-  .skills--section--card {
-    padding: 16px;
-    gap: 25px;
-    min-height: 0px;
-  }
-
-  .skills--section--img {
-    padding: 5px;
-    gap: 5px;
-  }
-
-  .skills--section--container {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-  }
-
-  .skills--section--card--content {
-    gap: 5px;
-  }
-
-  .skills--section--title {
-    font-size: 20px;
-  }
-
-  .skills--section--description {
-    font-size: 15px;
-    line-height: 25px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .skills--section--container {
-      grid-template-columns: 1fr;
-  }
-  
-}
 
 /* aboutMe section */
 
@@ -675,7 +683,7 @@ h3 {
 
 /* heading  */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     h1 {
         font-size: 28px;
     }
@@ -687,7 +695,7 @@ h3 {
     h3 {
         font-size: 16px;
     }
-}
+} */
 
 /* testimonial */
 
