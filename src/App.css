@@ -192,6 +192,27 @@ h3 {
     color: var(--primary);
 }
 
+@media only screen and (max-width: 768px) {
+  .navbar {
+      padding: 10px 10px;
+  }
+  .navbar--items {
+    margin-right: 10px;
+  }
+  .navbar--items > ul {
+      gap: 13px;
+      flex-direction: row;
+      margin-right: 5px;
+      padding-left: 0px;
+  }
+  .btn {
+    padding: 2px 5px;
+    font-size: 14px;
+  }
+  .navbar--content {
+    font-size: 13px;
+  }
+}
 
 /* hero section */
 
@@ -532,16 +553,7 @@ h3 {
 
 /* media query -- navbar */
 
-@media only screen and (max-width: 768px) {
-  .navbar {
-      padding: 10px 20px;
-  }
 
-  .navbar--items > ul {
-      gap: 5px;
-      flex-direction: row;
-  }
-}
 
 /* hero section */
 
