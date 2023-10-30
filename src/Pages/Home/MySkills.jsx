@@ -30,7 +30,7 @@ export default function MySkills() {
           </div>
         ))}
       </div>
-      <div className="grid-container">
+      <div className="skills--icon-container">
         <div className="grid-item">
           <img src={htmlIcon} alt="HTML" />
           <span className="grid-text">HTML</span>
