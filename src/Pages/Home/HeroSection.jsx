@@ -1,6 +1,8 @@
 import linkedinIcon from "../../icon/linkedin.png";
 import githubIcon from "../../icon/github.png";
 import gmailIcon from "../../icon/gmail.png";
+import resumeFile from "../../files/Resume.pdf";
+import resumeIcon from "../../icon/resume.png";
 
 export default function HeroSection() {
   return (
@@ -54,9 +56,20 @@ export default function HeroSection() {
                 alt="Gmail Icon"
               />
             </a>
+            <a
+              href={resumeFile} 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                style={{ width: "55px", height: "55px", margin: "10px" }}
+                src={resumeIcon}
+                alt="Resume"
+              />
+            </a>
           </div>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary" style={{ marginLeft: "11px"}}>Get In Touch</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img4.png" alt="Hero Section" />
