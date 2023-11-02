@@ -2,21 +2,21 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/feather-pen-2.png",
       "title": "Front-End",
       "description": "Deliver intuitive user interfaces using languages and frameworks including JavaScript, React and Vue, ensuring alignment with strategic goals"
     },
     {
       "id": "2",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI Design",
-      "description": "Develop modern, user-centric UI designs and features to meet end-user expectations and requirements"
+      "src": "./img/product-chain-1.png",
+      "title": "Backend Services",
+      "description": "Engineer robust and scalable server-side logic using technologies such as Node.js, Express, and MongoDB for seamless front-to-back end functionality"
     },
     {
       "id": "3",
       "src": "./img/feather-pen-1.png",
       "title": "Project Management",
-      "description": "Leverage methodologies like Agile to drive project success and demonstrate multifaceted project management skills"
+      "description": "Leverage Agile methodologies and project management skills to drive project success and demonstrate multifaceted project management skills"
     }
   ],
   "portfolio": [
