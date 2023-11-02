@@ -197,7 +197,7 @@ h3 {
 @media only screen and (max-width: 768px) {
   .navbar {
     padding: 10px 10px;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .navbar--items {
@@ -309,7 +309,7 @@ p.hero--section-description {
     font-size: 12px;
   }
   .contact--link--icons {
-    width: 70%;
+    width: 100%;
   }
 
   .contact--link--icons img[src*="linkedinIcon"] {

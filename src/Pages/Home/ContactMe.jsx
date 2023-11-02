@@ -17,14 +17,14 @@ export default function ContactMe() {
       <div className="contact--img--container">
         <a href="https://www.linkedin.com/in/hyunellenpark1/" target="_blank" rel="noopener noreferrer">
           <img
-            style={{ width: "60px", height: "60px", margin: "10px" }}
+            style={{ width: "50px", height: "50px", margin: "10px" }}
             src={linkedinIcon}
             alt="LinkedIn Icon"
           />
         </a>
         <a href="https://github.com/ellen3128" target="_blank" rel="noopener noreferrer">
           <img
-            style={{ width: "55px", height: "55px", margin: "10px" }}
+            style={{ width: "45px", height: "45px", margin: "10px" }}
             src={githubIcon}
             alt="Github Icon"
           />
@@ -34,7 +34,7 @@ export default function ContactMe() {
               target="_blank" rel="noopener noreferrer"
             >
               <img
-                style={{ width: "55px", height: "55px", margin: "10px" }}
+                style={{ width: "45px", height: "45px", margin: "10px" }}
                 src={gmailIcon}
                 alt="Gmail Icon"
               />
@@ -45,7 +45,7 @@ export default function ContactMe() {
               rel="noopener noreferrer"
             >
               <img
-                style={{ width: "55px", height: "55px", margin: "10px" }}
+                style={{ width: "45px", height: "45px", margin: "10px" }}
                 src={resumeIcon}
                 alt="Resume"
               />

@@ -29,7 +29,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
             >
               <img
-                style={{ width: "60px", height: "60px", margin: "10px" }}
+                style={{ width: "50px", height: "50px", margin: "10px" }}
                 src={linkedinIcon}
                 alt="LinkedIn Icon"
               />
@@ -40,7 +40,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
             >
               <img
-                style={{ width: "55px", height: "55px", margin: "10px" }}
+                style={{ width: "46px", height: "46px", margin: "10px" }}
                 src={githubIcon}
                 alt="Github Icon"
               />
@@ -51,7 +51,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
             >
               <img
-                style={{ width: "55px", height: "55px", margin: "10px" }}
+                style={{ width: "46px", height: "46px", margin: "10px" }}
                 src={gmailIcon}
                 alt="Gmail Icon"
               />
@@ -62,7 +62,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
             >
               <img
-                style={{ width: "55px", height: "55px", margin: "10px" }}
+                style={{ width: "45px", height: "45px", margin: "10px" }}
                 src={resumeIcon}
                 alt="Resume"
               />
