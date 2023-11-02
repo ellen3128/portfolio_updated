@@ -2,6 +2,7 @@ import linkedinIcon from "../../icon/linkedin.png";
 import githubIcon from "../../icon/github.png";
 import gmailIcon from "../../icon/gmail.png";
 import resumeFile from "../../files/Resume.pdf";
+import resumeIcon from "../../icon/resume.png";
 
 export default function ContactMe() {
   return (
@@ -38,15 +39,17 @@ export default function ContactMe() {
                 alt="Gmail Icon"
               />
             </a>
-            <div className="resume-button-container">
-        <a
-          href={resumeFile} 
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="resume-button">Resume</button>
-        </a>
-      </div>
+            <a
+              href={resumeFile} 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                style={{ width: "55px", height: "55px", margin: "10px" }}
+                src={resumeIcon}
+                alt="Resume"
+              />
+            </a>
       </div>
     </section>
   );
