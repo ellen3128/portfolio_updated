@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import linkedinIcon from "../../icon/linkedin.png";
 import githubIcon from "../../icon/github.png";
 import gmailIcon from "../../icon/gmail.png";
@@ -11,13 +12,14 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Ellen</p>
           <h1 classname="hero--section--title">
-            <span className="hero--section-title--color">Full-Stack</span> <br />
+            <span className="hero--section-title--color">Full-Stack</span>{" "}
+            <br />
             Developer
           </h1>
           <p className="hero--section-description">
             ▪️ Highly creative and results-oriented developer
             <br />
-            ▪️ Former corporate consultant and registered lobbyist 
+            ▪️ Former corporate consultant and registered lobbyist
             <br />
             ▪️ Passionate about web applications with impactful designs!
           </p>
@@ -56,11 +58,7 @@ export default function HeroSection() {
                 alt="Gmail Icon"
               />
             </a>
-            <a
-              href={resumeFile} 
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={resumeFile} target="_blank" rel="noopener noreferrer">
               <img
                 style={{ width: "45px", height: "45px", margin: "10px" }}
                 src={resumeIcon}
@@ -69,7 +67,18 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <button className="btn btn-primary" style={{ marginLeft: "11px"}}>Get In Touch</button>
+        <button className="btn btn-primary" style={{ marginLeft: "11px" }}>
+        <Link
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="Contact"
+        >
+          Get In Touch
+          </Link>
+        </button>
+        
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img4.png" alt="Hero Section" />
