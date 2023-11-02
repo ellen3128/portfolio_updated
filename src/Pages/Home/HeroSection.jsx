@@ -21,7 +21,7 @@ export default function HeroSection() {
             <br />
             ▪️ Former corporate consultant and registered lobbyist
             <br />
-            ▪️ Passionate about web applications with impactful designs!
+            ▪️ Passionate about modern and impactful designs!
           </p>
 
           <div className="contact--link--icons">
